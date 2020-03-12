@@ -1,0 +1,20 @@
+.photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .photos__img {
+    width: calc(50% - 10px);
+    height: 256px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center; }
+  .photos__wider {
+    width: calc(67% - 10px); }
+  .photos__narrower {
+    width: calc(33% - 10px); }
+
+/*# sourceMappingURL=photos.css.map */

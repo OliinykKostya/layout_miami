@@ -1,0 +1,16 @@
+.button {
+  display: block;
+  font-size: 14px;
+  line-height: 1;
+  color: white;
+  background-color: #0075ff;
+  cursor: pointer;
+  -webkit-transition: background-color;
+  transition: background-color;
+  padding: 19px 62px;
+  border-radius: 10px;
+  border: none; }
+  .button:hover {
+    background-color: red; }
+
+/*# sourceMappingURL=button.css.map */

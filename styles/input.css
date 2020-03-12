@@ -1,0 +1,21 @@
+.input {
+  font-size: 14px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+  .input__textarea {
+    height: 166px; }
+
+@media screen and (max-width: 1000px) {
+  .input {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .input__text, .input__form {
+      width: 100%; } }
+
+/*# sourceMappingURL=input.css.map */
