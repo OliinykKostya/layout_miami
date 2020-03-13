@@ -18,6 +18,8 @@
     background-color: #9fadc2;
     border-radius: 10px;
     margin-left: 120px; }
+  .nav__item:last-child {
+    margin-right: 120px; }
 
 .nav__link {
   color: white;
@@ -26,5 +28,11 @@
   transition: 1s; }
   .nav__link:hover {
     color: #9fadc2; }
+
+@media screen and (max-width: 1000px) {
+  .nav__item:nth-child(1) {
+    margin-left: 20px; }
+  .nav__item:last-child {
+    margin-right: 20px; } }
 
 /*# sourceMappingURL=nav.css.map */

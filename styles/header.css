@@ -24,25 +24,43 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin: 0 120px;
-    color: white; }
+    margin: 0 120px; }
   .header__phone, .header__action {
     margin-top: 24px;
     font-size: 12px;
     line-height: 16px;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    height: 24px; }
+  .header__action {
+    border-bottom: 1px solid; }
   .header__middle {
-    position: relative;
+    position: absolute;
     display: inline-block;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    color: white;
-    font-weight: bold;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -1.5px;
-    margin-top: 342px;
+    bottom: 165px;
     margin-left: 120px; }
+  .header__middle, .header__phone, .header__action {
+    color: white;
+    font-style: normal;
+    font-weight: bold; }
+  .header__middle::before {
+    content: "";
+    display: block;
+    left: 0;
+    height: 2px;
+    width: 35px;
+    border-top: 1px solid;
+    color: white;
+    margin-bottom: 15px; }
+
+@media screen and (max-width: 1000px) {
+  .header__top, .header__middle {
+    margin-left: 20px;
+    margin-right: 20px; } }
 
 /*# sourceMappingURL=header.css.map */

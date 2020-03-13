@@ -3,10 +3,24 @@
   .person__photo {
     width: 150px;
     height: 150px;
-    border-radius: 50px; }
+    border-radius: 50px;
+    margin-bottom: 24px; }
   .person__name {
-    margin-top: 12px; }
+    margin-bottom: 4px; }
   .person__position {
-    margin: 0; }
+    margin: 0;
+    margin-bottom: 13px;
+    color: #9fadc2; }
+  .person__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #3e3e3e; }
+  .person__link {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0075ff; }
 
 /*# sourceMappingURL=person.css.map */
