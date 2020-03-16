@@ -1,5 +1,6 @@
 .person {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 48px; }
   .person__photo {
     width: 150px;
     height: 150px;
@@ -22,5 +23,9 @@
     font-size: 24px;
     line-height: 30px;
     color: #0075ff; }
+
+@media screen and (max-width: 1000px) {
+  .person__photo {
+    margin-bottom: 28px; } }
 
 /*# sourceMappingURL=person.css.map */

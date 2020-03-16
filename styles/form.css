@@ -5,7 +5,11 @@
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column;
-  width: 413px; }
+          flex-direction: column; }
+
+@media screen and (max-width: 1000px) {
+  .form {
+    margin: 0 auto;
+    width: 280px; } }
 
 /*# sourceMappingURL=form.css.map */

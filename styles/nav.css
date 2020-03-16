@@ -5,34 +5,53 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  list-style: none;
-  width: 100%; }
+  list-style: none; }
 
 .nav__item {
   height: 15px;
-  padding: 8px 24px;
+  display: inline;
   color: white;
   text-align: center;
   line-height: 15px; }
   .nav__item:nth-child(1) {
-    background-color: #9fadc2;
     border-radius: 10px;
     margin-left: 120px; }
   .nav__item:last-child {
     margin-right: 120px; }
 
 .nav__link {
+  padding: 8px 24px;
   color: white;
   text-decoration: none;
+  text-transform: uppercase;
   -webkit-transition: 1s;
   transition: 1s; }
   .nav__link:hover {
     color: #9fadc2; }
 
+.nav__toggler {
+  display: display; }
+
+.nav__toggler-label {
+  display: display;
+  color: white;
+  font-size: 30px; }
+
+.nav__active__link {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1); }
+
 @media screen and (max-width: 1000px) {
-  .nav__item:nth-child(1) {
-    margin-left: 20px; }
-  .nav__item:last-child {
-    margin-right: 20px; } }
+  .nav {
+    position: absolute;
+    top: 0; }
+    .nav__item:nth-child(1) {
+      margin-left: 20px; }
+    .nav__item:last-child {
+      margin-right: 20px; } }
+
+@media screen and (max-width: 1000px) {
+  .nav__list {
+    display: none; } }
 
 /*# sourceMappingURL=nav.css.map */
