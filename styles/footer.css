@@ -1,11 +1,11 @@
 .footer {
   height: 540px;
   position: relative;
-  background-image: url("/images/footer.jpg");
+  background-image: url(../images/footer.jpg);
   background-size: cover;
   background-position: center; }
   .footer__logo {
-    background-image: url(/images/logo.png);
+    background-image: url(../images/logo.png);
     background-size: cover;
     height: 76px;
     width: 115px;

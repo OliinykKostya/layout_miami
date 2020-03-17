@@ -44,7 +44,11 @@
   height: 4px;
   top: 10px;
   z-index: 5;
-  margin-top: 10px; }
+  margin-top: 10px;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s; }
 
 .header__span::before {
   top: 0; }
