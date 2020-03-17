@@ -1,2 +1,123 @@
+.header__burger, .header__span, .header__toggler {
+  display: none; }
+
+.header__toggler {
+  z-index: 3; }
+
+.header__burger {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  z-index: 2;
+  background-color: #0075ff;
+  left: 0; }
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 200px;
+  margin: 120px 0 0 46px; }
+
+.header__span {
+  position: absolute;
+  background-color: #fff;
+  right: 24px;
+  width: 40px;
+  height: 4px;
+  top: 20px;
+  z-index: 3;
+  margin-top: 40px; }
+
+.header__span::before, .header__span::after {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  width: 40px;
+  height: 4px;
+  top: 10px;
+  z-index: 5;
+  margin-top: 10px; }
+
+.header__span::before {
+  top: 0; }
+
+.header__span::after {
+  bottom: 0; }
+
+.header__link-menu {
+  display: block;
+  margin-bottom: 32px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  -webkit-transition: 1s;
+  transition: 1s; }
+
+.header__link-menu:hover {
+  color: #9fadc2; }
+
+.header__menu__nav {
+  margin-bottom: 46px; }
+
+.header__info-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase; }
+
+.header__info-link {
+  display: block;
+  margin-bottom: 16px;
+  -webkit-transition: color 1s;
+  transition: color 1s; }
+
+.header__info-link:hover {
+  color: #9fadc2; }
+
+.header__info-link:last-child {
+  height: 24px;
+  width: 115px;
+  border-bottom: 1px solid; }
+
+.header__toggler-label {
+  display: none;
+  font-size: 55px;
+  width: 20px;
+  height: 20px;
+  z-index: 3; }
+
+.header__toggler:checked ~ .header__toggler-label .header__span::before {
+  top: 10px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg); }
+
+.header__toggler:checked ~ .header__toggler-label .header__span::after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg); }
+
+.header__toggler:checked ~ .header__burger {
+  display: block; }
+
+@media screen and (max-width: 1000px) {
+  .header__span, .header__toggler-label {
+    display: block; } }
 
 /*# sourceMappingURL=menu.css.map */

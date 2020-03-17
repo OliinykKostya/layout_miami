@@ -5,14 +5,19 @@
   line-height: 1;
   color: white;
   background-color: #0075ff;
-  -webkit-transition: background-color;
-  transition: background-color;
+  cursor: pointer;
   padding: 19px 62px;
   border-radius: 10px;
   border: none;
   width: 413px;
   -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
-          box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46); }
+          box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
+  -webkit-transition: background-color 1s, color 1s;
+  transition: background-color 1s, color 1s; }
+
+.button:hover {
+  background-color: #fff;
+  color: #0075ff; }
 
 @media screen and (max-width: 1000px) {
   .button {

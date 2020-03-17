@@ -12,7 +12,13 @@
             box-sizing: border-box;
     font-size: 16px;
     line-height: 14px;
-    font-weight: bold; }
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: background-color 1s, color 1s;
+    transition: background-color 1s, color 1s; }
+  .gallery__button:hover {
+    background-color: #0075ff;
+    color: white; }
 
 @media screen and (max-width: 320px) {
   .gallery__button {

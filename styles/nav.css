@@ -41,6 +41,13 @@
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.1); }
 
+@media screen and (max-width: 1050px) {
+  .nav__item:nth-child(1) {
+    border-radius: 10px;
+    margin-left: 95px; }
+  .nav__item:last-child {
+    margin-right: 95px; } }
+
 @media screen and (max-width: 1000px) {
   .nav {
     position: absolute;
