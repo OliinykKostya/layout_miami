@@ -12,7 +12,7 @@
     left: 0;
     right: 0; }
   .header__logo {
-    background-image: url(/images/logo.png);
+    background-image: url(../images/logo.png);
     background-size: cover;
     height: 76px;
     width: 115px;
@@ -33,7 +33,7 @@
     height: 24px; }
   .header__link-mobile {
     display: block;
-    background-image: url(/images/Vector.png);
+    background-image: url(../images/Vector.png);
     background-size: cover;
     height: 25px;
     width: 25px;
