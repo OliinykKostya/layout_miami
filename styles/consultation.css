@@ -19,7 +19,7 @@
     color: #0075ff;
     margin-bottom: 16px; }
   .consultation__form {
-    width: 380px; }
+    width: 413px; }
 
 @media screen and (max-width: 1000px) {
   .consultation {
@@ -28,6 +28,12 @@
         -ms-flex-direction: column;
             flex-direction: column; }
     .consultation__text {
-      margin-bottom: 32px; } }
+      margin-bottom: 32px; }
+    .consultation__heading {
+      text-align: center; } }
+
+@media screen and (max-width: 1000px) {
+  .consultation__heading {
+    text-align: left; } }
 
 /*# sourceMappingURL=consultation.css.map */

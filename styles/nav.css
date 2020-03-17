@@ -58,7 +58,9 @@
       margin-right: 20px; } }
 
 @media screen and (max-width: 1000px) {
-  .nav__list {
-    display: none; } }
+  .nav {
+    display: none; }
+    .nav__list {
+      display: none; } }
 
 /*# sourceMappingURL=nav.css.map */

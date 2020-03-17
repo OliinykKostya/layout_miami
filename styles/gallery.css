@@ -14,8 +14,8 @@
     line-height: 14px;
     font-weight: bold;
     cursor: pointer;
-    -webkit-transition: background-color 1s, color 1s;
-    transition: background-color 1s, color 1s; }
+    -webkit-transition: background-color 0.2s, color 0.2s;
+    transition: background-color 0.2s, color 0.2s; }
   .gallery__button:hover {
     background-color: #0075ff;
     color: white; }

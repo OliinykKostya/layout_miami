@@ -31,30 +31,13 @@
   background-color: #fff;
   right: 24px;
   width: 40px;
-  height: 4px;
-  top: 20px;
-  z-index: 3;
-  margin-top: 40px; }
-
-.header__span::before, .header__span::after {
-  content: "";
-  background-color: #fff;
-  position: absolute;
-  width: 40px;
-  height: 4px;
-  top: 10px;
-  z-index: 5;
-  margin-top: 10px;
-  -webkit-transition: -webkit-transform 0.2s;
-  transition: -webkit-transform 0.2s;
-  transition: transform 0.2s;
-  transition: transform 0.2s, -webkit-transform 0.2s; }
-
-.header__span::before {
-  top: 0; }
-
-.header__span::after {
-  bottom: 0; }
+  height: 4px; }
+  .header__span-top {
+    top: 60px; }
+  .header__span-middle {
+    top: 70px; }
+  .header__span-bottom {
+    top: 80px; }
 
 .header__link-menu {
   display: block;
@@ -108,14 +91,18 @@
   height: 20px;
   z-index: 3; }
 
-.header__toggler:checked ~ .header__toggler-label .header__span::before {
-  top: 10px;
+.header__toggler:checked ~ .header__toggler-label .header__span-top {
+  top: 70px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg); }
 
-.header__toggler:checked ~ .header__toggler-label .header__span::after {
+.header__toggler:checked ~ .header__toggler-label .header__span-middle {
+  top: 70px;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg); }
+
+.header__toggler:checked ~ .header__toggler-label .header__span-bottom {
+  visibility: hidden; }
 
 .header__toggler:checked ~ .header__burger {
   display: block; }

@@ -12,7 +12,8 @@
   margin-bottom: 16px;
   width: 100%; }
   .input__textarea {
-    height: 166px; }
+    height: 166px;
+    resize: none; }
 
 @media screen and (max-width: 1000px) {
   .input {
